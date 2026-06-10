@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "type": "dart",
+            "request": "launch",
+            "name": "Run flutter_launcher_icon",
+            "toolArgs": [
+                "pub",
+                "run",
+                "flutter_launcher_icon:main"
+            ],
+            "cwd": "${workspaceFolder}",
+            "internalConsoleOptions": "neverOpen"
+        }
+    ]
+}
