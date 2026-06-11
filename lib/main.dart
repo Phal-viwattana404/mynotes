@@ -49,9 +49,7 @@ class HomePage extends StatelessWidget {
               return const LoginView();
             }
           default:
-            return const Scaffold(
-              body: Center(child: CircularProgressIndicator()),
-            );
+            return const CircularProgressIndicator();
         }
       },
     );
